@@ -75,7 +75,7 @@ class CKEditorType extends AbstractType
                 ),
                 array(
                     'name' => 'insert',
-                    'items' => array('Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak')
+                    'items' => array('Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak','Abbr')
                 ),
                 '/',
                 array(
