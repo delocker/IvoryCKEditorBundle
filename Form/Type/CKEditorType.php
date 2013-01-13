@@ -54,11 +54,11 @@ class CKEditorType extends AbstractType
                 ),
                 array(
                     'name' => 'editing',
-                    'items' => array('Find','Replace','-','SelectAll','-','SpellChecker', 'Scayt')
+                    'items' => array('Find','Replace','-','SelectAll','-','SpellChecker','Scayt')
                 ),
                 array(
                     'name' => 'forms',
-                    'items' => array('Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton', 'HiddenField')
+                    'items' => array('Form','Checkbox','Radio','TextField','Textarea','Select','Button','ImageButton','HiddenField')
                 ),
                 '/',
                 array(
@@ -75,7 +75,7 @@ class CKEditorType extends AbstractType
                 ),
                 array(
                     'name' => 'insert',
-                    'items' => array('Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak','Abbr')
+                    'items' => array('Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak','Iframe')
                 ),
                 '/',
                 array(
@@ -88,7 +88,7 @@ class CKEditorType extends AbstractType
                 ),
                 array(
                     'name' => 'tools',
-                    'items' => array('Maximize', 'ShowBlocks','-','About')
+                    'items' => array('Maximize','ShowBlocks','-','About')
                 )
             ),
             'ui_color' => null
